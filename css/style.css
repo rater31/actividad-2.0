@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 .logo{
     max-width: 7vh;
 }
@@ -34,4 +34,9 @@
     color: cadetblue;
     border-color: blue;
     border-width: 3px;
+}
+.footer{
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    font-size: 1rem;
 }
