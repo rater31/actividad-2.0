@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Actividad 2</title>
+</head>
+<body>
+    
+    <div class="container-fluid ">
+        <div class="row">
+
+              <!-- menu -->
+                <nav class="navbar navbar-expand-lg fixed-top">
+                    <div class="container-fluid w-100">
+                      <a class="navbar-brand" href="#"><img class="logo" src="../images/logo.png" alt="Logo"></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Favoritos</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#">Mis publicaciones</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Linus Torvalds
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Mi cuenta </a></li>
+                              <li><a class="dropdown-item" href="#">Cerrar sesión</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+              <!-- fin menu -->
+
+        </div>
+          <!-- barra de busqueda -->
+          <div class="row d-flex justify-content-center align-content-center marg-t mb-3">
+            <div class="col-6 ">
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search"  aria-label="Search">
+                <button class="btn btn-search" type="submit">Buscar</button>
+              </form>
+            </div>
+          </div>
+    </div>
+           <!-- fin de barra -->
+           <!-- carousel -->
+    <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../images/slide1.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/slide2.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/slide3.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+    </div>
+           <!-- fin carousel -->
+    <div class="container-fluid">
+          <!-- parallax -->
+             <div class="row">
+              <div class="col parallax  d-flex justify-content-center align-items-center">
+               <span style="font-size: 1.9rem;">HOT SALE - HASTA 40% OFF</span>
+              </div>
+             </div>  
+            <!-- fin parallax -->
+            <!-- tarjetas -->
+            <div class="row row-cols-1 row-cols-md-2  row-cols-lg-3 row-cols-xl-4">
+              <div class="col my-4">
+                <div class="card h-100">
+                  <img src="../images/img1.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Xiaomi Redmi Note 9 Pro</h5>
+                    <p class="card-text">Pantalla IPS de 6.67", 4 cámaras traseras de 64Mpx, 5Mpx, 2Mpx. Cámara delantera de 16Mpx...</p>
+                  </div>
+                  <div class="card-footer">$ 96.000</div>
+                </div>
+              </div>
+              <div class="col my-4">
+                <div class="card h-100">
+                  <img src="../images/img2.webp" class="card-img-top " alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Mototrola Edge 128 GB</h5>
+                    <p class="card-text">Compatible con redes 5G. Pantalla OLED de 6.7". 4 cámaras traseras. Cámara delantera de 25Mpx...</p>
+                  </div>
+                  <div class="card-footer">
+                    $ 78.999
+                  </div>
+                </div>
+              </div>
+              <div class="col my-4 ">
+                <div class="card h-100">
+                  <img src="../images/img3.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Xiaomi Mi 11 Lite</h5>
+                    <p class="card-text">Procesador Snapdragon 732G Octa-core de 2.3GHz. 6GB de RAM. Batería de 4250mAh...</p>
+                    
+                  </div>
+                  <div class="card-footer">
+                    $ 82.799
+                  </div>
+                </div>
+              </div>
+              <div class="col my-4 ">
+                <div class="card h-100">
+                  <img src="../images/img4.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Samsung Galaxy A72</h5>
+                    <p class="card-text">Octa-Core Snapdragon 720G 2.3GHz. Android 11 (One UI 3.1). Memoria RAM: 6 GB. 128 GB...</p>
+                    
+                  </div>
+                  <div class="card-footer">
+                    $ 73.999
+                  </div>
+                </div>
+              </div>
+              <div class="col my-4 ">
+                <div class="card h-100">
+                  <img src="../images/img5.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Apple iPhone 11 (64 GB)</h5>
+                    <p class="card-text">Pantalla LCD Liquid Retina HD de 6.1 pulgadas. Clasificación IP68 de resistencia al agua y al polvo...</p>
+                    
+                  </div>
+                  <div class="card-footer">
+                    $ 174.999
+                  </div>
+                </div>
+              </div>
+              <div class="col my-4 ">
+                <div class="card h-100">
+                  <img src="../images/img6.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Apple iPhone 12 Pro Max</h5>
+                    <p class="card-text">Pantalla Super Retina XDR de 6.7 pulgadas. Ceramic Shield. Chip A 14 Bionic...</p>
+                    
+                  </div>
+                  <div class="card-footer">
+                    $ 323.761
+                  </div>
+                </div>
+              </div>
+              <div class="col my-4 ">
+                <div class="card h-100">
+                  <img src="../images/img7.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">LG K61 128 GB</h5>
+                    <p class="card-text">Procesador MediaTek MT6765 Helio P35 Octa-Core de 2.3GHz con 4GB de RAM. Batería de 4000mAh...</p>
+                    
+                  </div>
+                  <div class="card-footer">
+                    $ 31.999
+                  </div>
+                </div>
+              </div>
+              <div class="col my-4 ">
+                <div class="card h-100">
+                  <img src="../images/img8.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Nokia 7.1 64 GB</h5>
+                    <p class="card-text">IPS de 5.84". Cámara trasera de 12Mpx. Snapdragon 636 Octa-Core de 1.8GHz..</p>
+                    
+                  </div>
+                  <div class="card-footer">
+                    $ 30.999
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+    </div>
+
+
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
